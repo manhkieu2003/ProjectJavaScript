@@ -46,3 +46,12 @@
   right: 0;
   transform: translate(50%, -50%);
 }
+button{
+  padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    position: relative;
+    color: blueviolet;
+}

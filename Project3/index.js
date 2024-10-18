@@ -2,15 +2,20 @@ const leftBtn = document.querySelector(".btn-left");
 const rightBtn = document.querySelector(".btn-right");
 const buttons = document.querySelector(".btn");
 const imageEl = document.querySelector(".images")
+const bt = document.getElementsByTagName("button")
+var t;
 
 const image=["1","2","3","4","5","6"];
 let count=0;
 leftBtn.addEventListener("click",left);
 rightBtn.addEventListener("click",right);
-function left()
-{
+bt[0].addEventListener("click",()=>{
+    imageEl.style.background = `url("img/${image[count]}.png")`;
+})
+bt[1].addEventListener("click",()=>{
+    imageEl.style.background = `url("img/${image[image.length-1]}.png")`;
+})
 
-}
 function right()
 {
     count++;
@@ -30,3 +35,10 @@ function left()
     }
     imageEl.style.background = `url("img/${image[count]}.png")`;
 }
+bt[2].addEventListener("click",()=>{
+    clearInterval(t)
+    t=setInterval("right()",1000)
+})
+bt[3].addEventListener("click",()=>{
+    clearInterval(t)
+})

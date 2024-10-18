@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.header {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: -16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 10px;
+}

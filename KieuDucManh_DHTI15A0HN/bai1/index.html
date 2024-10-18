@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        </div>
+        <div class="calculator">
+            <table>
+                <tr>
+                    <td>Number 1</td>
+                    <td><input type="number" id="num1" value=""></td>
+                </tr>
+                <tr>
+                    <td>Number 2</td>
+                    <td><input type="number" id="num2" value=""></td>
+                </tr>
+                <tr>
+                    <td>Option</td>
+                    <td>
+                        <select id="operation">
+                            <option value="plus">Plus</option>
+                            <option value="subtract">Subtract</option>
+                            <option value="multiply">Multiply</option>
+                            <option value="divide" selected>Divide</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Result</td>
+                    <td><input type="text" id="result" readonly></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button class="tinh" >Calculate</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

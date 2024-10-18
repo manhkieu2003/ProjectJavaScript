@@ -1,0 +1,6 @@
+tất cả các thành phần trong tài liệu html được biểu diễn bằng đối tượng nod
+1> toàn bộ tài liệu là document node
+2> tất cả các thành phần của html đều là element node
+3> văn bản trong thành phần html là text node
+4? tất cả các thuộc tính là atttribute node
+5> chú thích là comment node
